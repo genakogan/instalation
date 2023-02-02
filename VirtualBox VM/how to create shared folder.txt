@@ -1,0 +1,14 @@
+In terminal: 
+1. su
+2. sudo nano /etc/sudoers
+3. find line -> root ALL=(ALL:ALL) ALL
+4. in the next line write -> username ALL=(ALL:ALL) ALL
+5. save the file
+6. exit
+7. sudo apt-get update
+8. sudo apt-get install virtualbox-guest-dkms or if you have a probler run: 
+sudo apt-get install virtualbox-guest-additions-iso
+9. sudo apt-get install virtualbox-guest-utils
+11.	sudo adduser username vboxsf 
+12. go to: Devices -> Shared Folders and create new folder (sharedUbuntu) on windows
+13. reboot

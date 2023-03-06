@@ -8,6 +8,6 @@ In terminal:
 7. sudo apt-get update
 8. sudo apt-get install virtualbox-guest-additions-iso
 9. sudo apt-get install virtualbox-guest-utils
-10.	sudo adduser username vboxsf 
+10. sudo adduser username vboxsf 
 11. go to: Devices -> Shared Folders and create new folder (sharedUbuntu) on windows
 12. reboot

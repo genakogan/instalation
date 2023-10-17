@@ -1,4 +1,4 @@
-# Getting Started with Mojo and VS Code on WSL
+## Getting Started with Mojo and VS Code on WSL
 1. Install VS Code, the WSL extension, and the Mojo extension. </br>
 2. Install  <a href="https://apps.microsoft.com/detail/ubuntu-22042-lts/9PN20MSR04DW?hl=en-us&gl=IL" target="_blank"></a>Ubuntu 22.04<br /> Ubuntu 22.04 for WSL and open it. </br>
 3. In the Ubuntu terminal, install the Modular CLI:</br>

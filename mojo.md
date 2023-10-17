@@ -7,7 +7,7 @@
 5. Open the Ubuntu workspace in VS Code with this:</br>
    ```code .```
 6. Get started with Hello World!</br>
-#### Before you start:
+## Before you start:
    You must set the MODULAR_HOME and PATH environment variables, as described in the output when you ran modular install mojo. For example, if you’re using bash, you can set them as follows:</br>
   6.1. ```echo 'export MODULAR_HOME="$HOME/.modular"' >> ~/.bashrc```</br>
   6.2. ```echo 'export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"' >> ~/.bashrc ```</br>

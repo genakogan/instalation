@@ -1,5 +1,5 @@
 # Getting Started with Mojo and VS Code on WSL
-1. Install <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>, the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl" target="_blank">WSL</a>  extension, and the <a href="https://marketplace.visualstudio.com/items?itemName=modular-mojotools.vscode-mojo" target="_blank">Mojo</a>  extension. </br>
+1. Install <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>, the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl" target="_blank">WSL extension</a>, and the <a href="https://marketplace.visualstudio.com/items?itemName=modular-mojotools.vscode-mojo" target="_blank">Mojo extension</a>. </br>
 5.  Install <a href="https://apps.microsoft.com/detail/ubuntu-22042-lts/9PN20MSR04DW?hl=en-us&gl=IL" target="_blank">Ubuntu 22.04</a> for WSL and open it. </br>
 6. In the Ubuntu terminal, install the Modular CLI:</br>
    ```curl https://get.modular.com | \  MODULAR_AUTH=mut_2ee0972ab22a4775b2cf0980eedc9edb \  sh -```

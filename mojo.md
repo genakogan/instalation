@@ -1,8 +1,8 @@
 # Getting Started with Mojo and VS Code on WSL
 1. Install <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>, the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl" target="_blank">WSL extension</a>, and the <a href="https://marketplace.visualstudio.com/items?itemName=modular-mojotools.vscode-mojo" target="_blank">Mojo extension</a>. </br>
+#### <a href="https://www.youtube.com/watch?v=noHNiLYYGk4" target="_blank">WslRegisterDistribution failed with error: 0x8007019e Error: 0x8007019e</a>
 5.  Install <a href="https://apps.microsoft.com/detail/ubuntu-22042-lts/9PN20MSR04DW?hl=en-us&gl=IL" target="_blank">Ubuntu 22.04</a> for WSL and open it. </br>
-##### <a href="https://www.youtube.com/watch?v=noHNiLYYGk4" target="_blank">WslRegisterDistribution failed with error: 0x8007019e Error: 0x8007019e</a> 
- 6. In the Ubuntu terminal, install the Modular CLI:</br>
+6. In the Ubuntu terminal, install the Modular CLI:</br>
    ```curl https://get.modular.com | \  MODULAR_AUTH=mut_2ee0972ab22a4775b2cf0980eedc9edb \  sh -```
 7. Install the Mojo SDK:</br>
    ```sudo modular install mojo```

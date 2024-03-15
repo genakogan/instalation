@@ -1,0 +1,29 @@
+1. sudo ubuntu-drivers devices
+2. sudo apt-add-repository -r ppa:graphics-drivers/ppa
+3. sudo apt update
+4. sudo apt remove nvidia*
+5.  sudo apt autoremove
+6. sudo apt -f install nvidia-driver-535
+7. sudo apt install inxi
+8. inxi -G
+9. 113  sudo reboot
+
+
+1. `sudo ubuntu-drivers devices`: This command lists the available drivers for Ubuntu. It's used to check which drivers are available for your hardware.
+
+2. `sudo apt-add-repository -r ppa:graphics-drivers/ppa`: This command removes the specified PPA (Personal Package Archive) repository named `ppa:graphics-drivers/ppa`. PPAs are commonly used in Ubuntu to provide additional software and drivers.
+
+3. `sudo apt update`: This command updates the package lists for upgrades for all currently installed packages.
+
+4. `sudo apt remove nvidia*`: This command removes all packages whose names start with "nvidia". It's likely meant to remove any existing Nvidia drivers.
+
+5. `sudo apt autoremove`: This command removes packages that were automatically installed to satisfy dependencies for other packages and are now no longer needed.
+
+6. `sudo apt -f install nvidia-driver-535`: This command attempts to fix broken dependencies and install the package named `nvidia-driver-535`. 
+
+7. `sudo apt install inxi`: This command installs the `inxi` package, which is a command-line system information tool.
+
+8. `inxi -G`: This command runs `inxi` with the `-G` option, which displays graphics card information.
+
+9. `sudo reboot`: This command reboots the system.
+

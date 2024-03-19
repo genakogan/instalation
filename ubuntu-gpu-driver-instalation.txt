@@ -6,7 +6,7 @@
 6. sudo apt -f install nvidia-driver-535
 7. sudo apt install inxi
 8. inxi -G
-9. 113  sudo reboot
+9. sudo reboot
 
 
 1. `sudo ubuntu-drivers devices`: This command lists the available drivers for Ubuntu. It's used to check which drivers are available for your hardware.

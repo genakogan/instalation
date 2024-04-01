@@ -1,7 +1,5 @@
 ## How to run ubuntu desktop on a virtual machine using virtualbox
-https://github.com/isaacs/github/labels/2013-new-repo-view
-[](https://github.com/isaacs/github/labels/2013-new-repo-view)
-[2013-new-repo-view](https://github.com/isaacs/github/labels/2013-new-repo-view)
+https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
 
 In terminal: 
 1. su

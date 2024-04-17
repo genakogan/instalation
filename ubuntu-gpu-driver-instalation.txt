@@ -1,13 +1,15 @@
-1. sudo ubuntu-drivers devices
-2. sudo apt-add-repository -r ppa:graphics-drivers/ppa
-3. sudo apt update
-4. sudo apt remove nvidia*
-5.  sudo apt autoremove
-6. sudo apt -f install nvidia-driver-535
-7. sudo apt install inxi
-8. inxi -G
-9. sudo reboot
+1. apt-get install alsa-utils
+2. sudo ubuntu-drivers devices
+3. sudo apt-add-repository -r ppa:graphics-drivers/ppa
+4. sudo apt update
+5. sudo apt remove nvidia*
+6. sudo apt autoremove
+7. sudo apt -f install nvidia-driver-535
+8. sudo apt install inxi
+9. inxi -G
+10. sudo reboot
 
+1. 'apt-get install alsa-utils': This command install aplay.
 
 1. `sudo ubuntu-drivers devices`: This command lists the available drivers for Ubuntu. It's used to check which drivers are available for your hardware.
 

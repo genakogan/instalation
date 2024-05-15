@@ -3,8 +3,8 @@ https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-usin
 
 ## How to create shared folder
 In terminal: 
-1. su
-2. sudo nano /etc/sudoers
+1. sudo su
+2. nano /etc/sudoers
 3. find line -> root ALL=(ALL:ALL) ALL
 4. in the next line write -> username ALL=(ALL:ALL) ALL
 5. save the file

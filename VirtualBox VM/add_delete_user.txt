@@ -1,8 +1,0 @@
-# add user
-1. sudo mkdir /home/"user name" && sudo useradd "user name" -d /home/"user name" && sudo chown -R "user name":"user name" /home/"user name"
-2. sudo passwd "user name"
-3. Retype new password
-
-# delete user
-1. sudo rm -r "user name"
-2. sudo userdel "user name"

@@ -1,0 +1,8 @@
+1. sudo apt updata
+2. sudo apt install tasksel
+3. sudo apt install ubuntu-desktop
+4. sudo reboot now
+
+To install Guest Tools
+1. sudo apt install spice-vgagent
+2. sudo apt install spice-webdavd

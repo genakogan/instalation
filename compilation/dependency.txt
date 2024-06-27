@@ -1,2 +1,3 @@
-sudo apt install flex
+1. sudo apt install flex
+or sudo apt install flex-old
 sudo apt install bison
